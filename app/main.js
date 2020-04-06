@@ -1,0 +1,13 @@
+global.calc = global.calc || {};
+import  Validator   from './components/Validator.js';
+import  Renderer   from './components/Renderer.js';
+import  User   from './components/User.js';
+import  Calculator   from './components/Calculator.js';
+import App from './components/App.js';
+import json from './input.json';
+calc.Validator =  Validator;
+calc.Renderer =  Renderer;
+calc.Calculator =  Calculator;
+calc.User =  User;
+calc.App = new App();
+calc.App.init(json);

@@ -1,0 +1,22 @@
+{
+  "name": "calculator-frontend",
+  "version": "1.0.0",
+  "description": "calculator for users",
+  "main": "main.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "chai": "^4.2.0",
+    "mocha": "^7.1.1",
+    "sinon": "^9.0.1"
+  },
+  "scripts": {
+    "test": "mocha './specs/**/*.spec.js' ",
+    "start": "babel-node config.js"
+  },
+  "author": "Stanchev",
+  "license": "ISC"
+}
