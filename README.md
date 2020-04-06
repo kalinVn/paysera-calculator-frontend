@@ -15,10 +15,11 @@
 		Declarate users object in constructor.
 		Loop data array and for every one iteration  
 			1. Check users object keys.
-				-If dont exist keys from users object with user_id value from iterated data array  create
+				-If dont exist user from users object with id equal to  user_id value from iterated data array  create
 				new User class.If type is 'cash_out' transaction array from created User class push operation key values and date key values from iterated data 
 				array.
-				-Else if we have user from users object declareded before with iterated data aray user transactions array push key operation and date value.
+				-Else if we have user from users object declareded before with  id equal to iterated data array user_id value user transactions array push key
+				operation and date value.
 			
 			2.After these conditions  check if parameter type is "cash_in"  just
 				call _calculateComission method in Calculator class.If parameter type is "cash_out"
