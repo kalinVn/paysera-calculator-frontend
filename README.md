@@ -1,5 +1,10 @@
 # Calculator-frontend
+	Test program 
+	npm run test
 
+	Run program
+	npm run start
+		
 	Class App  
 		Validate json file with Validator class and Regex expresions.
 		Get comissions array from Calculator class
@@ -26,9 +31,3 @@
 		Display, rounding and ceil array value comissions from given comissions array in App class from Calculator calculate method.If class is 
 		instance of Calculator.Renderer call render calculator method(Renderer class must be render many things not only Calculator)
 	
- 
-Test program 
-npm run test
-
-Run program
-npm run start
